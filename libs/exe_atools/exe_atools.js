@@ -86,6 +86,8 @@ $exe.atools = {
         }
     },
     init : function(){
+         var e = $("body");
+                   e.toggleClass("exe-atools-on");
         if (typeof(localStorage)=='undefined') return;
         // Custom options
         try {
